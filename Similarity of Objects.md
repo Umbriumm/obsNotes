@@ -1,0 +1,4 @@
+- The `==` operator compares <span style="color:rgb(192, 0, 0)">references</span> of objects to each other.
+- The `equals()` method compares <span style="color:rgb(192, 0, 0)">contents</span> of objects to each other.
+	- **The object must override the** `equals()` **Method to alter it's behavior,** this is because the `equals()` method initially behaves like the `==` operator.
+	 - For most standard classes (e.g., `String`, `Integer`), `.equals()` is overridden to check **content equality**, so it behaves differently from `==` 
